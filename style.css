@@ -47,11 +47,28 @@ h1
     margin-top: auto;
 }
 
+#leisure p
+{
+    background-color: red;
+    font-size: 3em;
+}
+
+#leisure i
+{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
 #second_box
 {
     flex : 2;
     padding: 7% 3.8% 4.6% 5.37%;
-    background-color: rgb(248, 248, 248)
+    background-color: rgb(248, 248, 248);
+}
+
+em
+{
+    color: rgb(239, 154, 154);
 }
 
 #profil_image
@@ -62,6 +79,8 @@ h1
 img
 {
         width: 57%;
+        border: 4px solid rgb(239, 154, 230);
+        border-radius: 50%;
 }
 
 #second_box section h1
@@ -72,6 +91,7 @@ img
 h1 i
 {
     color: rgb(239,154,154);
+    margin-right: 5.2%
 }
 
 .first_column
