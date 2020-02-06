@@ -39,7 +39,7 @@ h1
     text-align: center;
     background-color: rgb(64, 64, 64);
     color: rgb(239, 154, 154);
-    font-size: 20px; /* Comment calculer précisément la taille de police ? */
+    font-size: 20px;
     padding: 9px 0px;
 }
 
@@ -187,7 +187,7 @@ h1 i
 
 /* Responsive design */ 
 
-@media all and (max-width: 1024px) /*Une adaptation spécifique tablette est elle nécessaire ? */
+@media all and (max-width: 1024px)
 {
     #main_wrapper
     {
