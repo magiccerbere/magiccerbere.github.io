@@ -33,13 +33,14 @@ h1
 	text-align: justify;
 }
 
-#first_box h1
+#first_box h2
 {
 	text-align: center;
 	background-color: rgb(64, 64, 64);
 	color: rgb(239, 154, 154);
 	font-size: 20px;
-	padding: 9px 0px;
+    padding: 9px 0px;
+    text-transform: uppercase;
 }
 
 /* Image */
@@ -112,14 +113,15 @@ em
 	color: rgb(239, 154, 154);
 }
 
-#second_box section h1
+#second_box section h2
 {
 	padding-bottom: 1%;
 	border-bottom: 3px solid rgb(239,154,154);
-	margin-bottom: 5.67%;
+    margin-bottom: 5.67%;
+    text-transform: uppercase;
 }
 
-#second_box section h2
+#second_box section h3
 {
 	font-weight: 550;
 	margin-top: 0%;
@@ -131,12 +133,12 @@ td
 	padding-bottom: 5.67%;
 }
 
-#second_box section h3
+#second_box section h4
 {
 	font-weight: normal;
 }
 
-h1 i
+h2 i
 {
 	color: rgb(239,154,154);
 	margin-right: 5.2%;
@@ -171,7 +173,7 @@ h1 i
 	display: flex;
 }
 
-#recommandation h2
+#recommandation h3
 {
 	font-size: 1.2em;
 }
@@ -182,7 +184,7 @@ h1 i
 }
 
 /* Responsive design */
-@media all and (max-width: 800px)
+@media all and (max-width: 1024px)
 {
 	#main_wrapper
 	{
