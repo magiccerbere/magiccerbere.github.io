@@ -196,5 +196,10 @@ h2 i
 	{
 		order: 0;
 		width: 100%;
-    }
+	}
+	
+	td
+	{
+		display: block;
+	}
 }
