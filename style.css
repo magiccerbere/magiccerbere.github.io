@@ -20,7 +20,7 @@ h1
 #first_box
 {
 	min-height: 100%;
-	background-color: rgb(221, 139, 139);
+	background-color: red;
 	display: flex;
 	flex-direction: column;
 	flex: 1;
